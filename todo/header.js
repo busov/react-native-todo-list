@@ -12,11 +12,10 @@ class Header extends Component {
           value={this.props.value}
           onChangeText={this.props.onChange}
           onSubmitEditing={this.props.onAddItem}
-          placeholder='What up?'
+          placeholder='Whats up?'
           blurOnSubmit={false}
           returnKeyType='done'
           style={styles.input}
-
         />
       </View>
     )
